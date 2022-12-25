@@ -13,3 +13,6 @@ tts:
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
+
+recorder:
+  db_url: !secret db_url
